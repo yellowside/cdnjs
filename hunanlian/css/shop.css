@@ -1,0 +1,112 @@
+/* index */
+.list_body{border-width: 1px 1px 1px;border-color: #e6e6e6;border-style:solid;background:#ffffff;padding-top:20px;border-radius:5px;margin-top:-3px;}
+.list_filter{border:1px solid #f2f2f2;background:#fafafa;padding:15px 10px;border-radius:5px;width:880px;margin-left:27px;}
+.filter_menu li{float:left;margin-right:15px;}
+.filter_menu .sp{color:#CCC;margin-right:15px;}
+.filter_menu li .a{color:#fc7050;}
+.filter_split{border-bottom:1px solid #ececec;padding-bottom:13px;margin-bottom:13px;}
+.item_list{margin-top:20px;}
+.item_list li{width:535px;height:235px;border:1px solid #e7e7e7;border-radius: 5px;float:left;margin-bottom:20px;margin-left:27px;}
+.item_list .mli{/*margin-left:24px;*/}
+.item_list li .content_l{float:left;border-right:1px solid #e7e7e7;}
+.item_list li .content_l img{width:285px;height:235px;border:0px;border-radius: 5px 0 0 5px;}
+/*.item_list li .content_l img:hover{opacity:0.8;}*/
+.item_list li .content_r{margin-left:280px;padding:16px 25px;}
+.content_r_top{height:108px;}
+.content_r h1{margin-bottom: 15px;}
+.content_r h1 a{font-size:14px;color:#000000;height:20px;}
+.content_r h1 a:hover{color:#fc7050;}
+.content_r span{color:#909090;display:block;margin-bottom:8px;}
+.content_r span b{font-size:14px;color:#fc7050;}
+.content_r .submitbtn{background:#fc7050;padding:5px 12px;color:white;border-radius: 5px;margin-top:60px;display:inline-block;}
+.content_r .disable{background:#c8c8c8;padding:5px 12px;color:white;border-radius: 5px;margin-top:60px;display:inline-block;}
+.content_r .submitbtn:hover{background:#fc7e61;}
+.a_footer{margin:0 30px 50px 0;}
+.history_btn{color:#909090;display:block;width:130px;height:35px;text-align: center;line-height: 35px;background:#fbfbfb;border-radius:5px;border:1px solid #ebebeb;font-size: 14px;font-weight:bold;}
+.history_btn:hover{color:#fc8c72;}
+.person_btn{display:block;border:1px solid #dcdcdc;width:63px;height:30px;border-radius:5px;padding-left:36px;line-height:30px;margin-top:10px;background:url(../images/auction_person.png) no-repeat 15px 7px;}
+.person_btn:hover{background-color:#ffffff;}
+
+.slidebar li{border-radius:10px;margin-left:8px;height:10px;width:10px;background:#ffffff;line-height:50px;}
+.slideshow span.title{background:#ffffff;/*filter:alpha(opacity=50);opacity:0.5;*/font-weight:normal;}
+.slideshow li{border-radius:5px 5px 0px 0px;}
+.slidebar li.on{background:#fc7050 !important;}
+
+/* viewthread */
+.box{width:1200px; margin:0 auto;border:1px solid #e6e6e6;border-radius:5px;margin-bottom:10px;background-color:#ffffff !important;clear:both;}
+.item_info_l{ float:left;}
+.item_info_l img{width:460px;height:360px;border-radius:5px 0px 0px 5px;}
+.item_info_r{ float:right;height:360px;padding:35px 0 0 30px;}
+.item_info_r h1{font-size:22px;color:#000000;font-weight:normal;width:500px;}
+.item_property{width:650px;margin-top:15px;float:left;}
+.item_property span{color:#000000;}
+.item_property li{float:left;height:36px;width:300px;line-height:40px;}
+.item_property .sbig{font-size:34px;color:#fc7050;}
+.item_property .scolor{color:#fc7050;font-weight: bold;}
+.item_info_r .copyurl{font-size:12px;}
+
+.btnshop{ margin-top:20px;display: inline-block;background: #F8B627;color: #ffffff;font-size: 18px;font-weight: normal;width: 132px;text-align: center;border-radius: 3px;transition: 400ms;text-decoration: none;padding:10px 22px 10px 22px;}
+.getShop{ display: inline-block;width: 132px;text-align: center;border-radius: 3px;transition: 400ms;text-decoration: none;}
+
+.item_property .st{color:#666666;margin-right:20px;}
+.item_confirm_btn{display:inline-block;clear:both;width:124px;height:40px;text-align:center;line-height:40px;color:white;background:#fc7050;font-size:16px;border-radius:5px;margin-top:32px;}
+.item_confirm_btn:hover{color:white;background:#fc7e61;}
+.item_info_r .disable{background:#c8c8c8 !important;cursor:default;}
+
+.sub_tit{height:48px;border-bottom:1px solid #ededed;line-height:48px;font-size:14px;padding-left:32px;color:#fc7050;font-weight: bold;}
+.sub_con{padding:10px 32px 32px;}
+.sub_con .page{margin:15px 0px;}
+.item_applylist .list_bar{margin:20px 0 0 32px;font-size:14px;}
+.item_applylist .list_con{margin:25px 32px 25px 32px;}
+.item_applylist .list_bar a{display:inline-block;margin-right:35px;padding:5px 10px;color:#4c9eed;border-radius:5px;}
+.item_applylist .list_bar .active,.item_applylist .list_bar a:hover{background:#4c9eed;color:white;}
+.list_con table td,.list_con table th{height:40px;line-height:40px;padding-left:20px;}
+.list_con table th{border-bottom:1px solid #e5e5e5;font-weight:bold;}
+.list_con table td{border-bottom:1px solid #f4f4f4;}
+.list_con .view_info{color:#fc7050;margin-left:10px;}
+.item_postlist .sub_con ul li{border-bottom: 1px dotted #cdcdcd;padding-top:15px;}
+.item_postlist .con_avatar img{border-radius:5px;}
+.item_postlist .con_content{margin-left:60px;}
+.item_postlist .con_content .y{color:#999999;}
+.item_postlist .s_user{color:#3893eb;margin-right:15px;}
+.item_postlist .s_time{color:#8f8f8f;}
+.checkbox{width: 15px;height: 15px;background: url(../../../../static/image/miui/base/imghack.png) 0 -93px no-repeat transparent;display: inline-block;float:left;margin:1px 5px 0 0;cursor: pointer;}
+.checkbox2{width: 15px;height: 15px;background: url(../../../../static/image/miui/base/imghack.png) 0 -93px no-repeat transparent;display: inline-block;margin:7px 5px 0 0;cursor: pointer;position:absolute;}
+.au_m_l{margin-left:20px;}
+.au_m_l2{margin-left:20px;}
+
+/* personal_center */
+#buynotice{width:100%;border:1px solid #e0dfdf;border-radius:5px;}
+.main .tip{text-align:center;}
+.small_btn2{padding:1px 10px;border-radius:5px;background:#fc7050;color:white;}
+.small_btn2:hover{color:white;}
+.small_btn{margin-left:12px;border:1px solid #dcdcdc;padding:1px 10px;border-radius:5px;}
+.small_btn:hover{background:#f9e7e2;border:1px solid #f9e7e2;color:#fe6c49;}
+.personal_info{border:10px solid #e7e7e7;padding:22px;border-radius:5px;background:#fdfdfd;margin-bottom:10px;}
+.personal_info .z{margin-right:45px;}
+.personal_info .z img{width:117px;height:117px;border-radius:5px;}
+.personal_info li{margin-bottom:11px;color:#000000;}
+.personal_info .z li b{font-weight:bold;}
+.personal_info .z li span{margin-left:12px;color:#909090;}
+.personal_info .myselfinfo{margin:0 0px 0 60px;}
+.personal_info .auction_pub_box{float:right;}
+.personal_info .auction_pub_btn{padding:6px 22px;font-size:14px;color:white;display:inline-block;border-radius:5px;background:#fc7050;}
+.personal_info .auction_pub_btn:hover{background:#fc7e61;}
+.myselfinfo .px{border:1px solid #e0dfdf;background:none;}
+.info_title{display:block;margin-left:0px !important;color:#000000 !important;float:left;}
+.info_con{width:380px;display:block;margin-left:35px !important;}
+
+/* post */
+#auc_op .px{border:1px solid #e0dfdf;background:none;border-radius:5px;height:25px;}
+#auc_op dt{height:30px;line-height:30px;}
+#auc_op textarea{border:1px solid #e0dfdf;border-radius:5px;background:none;}
+.ftid_spacecp_level1 a{text-align:left;float:left;height:31px;padding-left:10px;background:url(../../../../static/image/miui/base/pub_post_bg.png) no-repeat 0px -250px;border-radius:5px;line-height:31px;font-weight:normal;background-color:white !important;}
+.ftid_spacecp_prav a{text-align:left;display:inline-block;height:31px;padding-left:10px;background:url(../../../../static/image/miui/base/pub_post_bg.png) no-repeat 0px -189px;border-radius:5px;line-height:31px;font-weight:normal;width:60px !important;}
+.ftid_spacecp_level3 a{text-align:left;display:inline-block;height:31px;padding-left:10px;background:url(../../../../static/image/miui/base/pub_post_bg.png) no-repeat 0px -64px;border-radius:5px;line-height:31px;font-weight:normal;width:111px !important;}
+.ftid_spacecp_level3{display:inline-block;}
+.uploadpicbox{border:1px solid #d6d6d6;width:450px;height:252px;}
+.uploadinnerbox{background:url(../images/uploadboxbg.png);margin:11px;width:200px;height:230px;float:left;}
+.uploadbtn{padding:8px 35px;background:#fcfcfc;border:1px solid #fc7050;font-size:14px;color:#fc7050;border-radius:5px;margin-top:25px;}
+.pg a.nxt{font-family: '宋体';font-weight: bold;}
+#Info_box_1{max-width:430px;}
+.upload_btn_box{text-align:center;width:225px;float:left;}
