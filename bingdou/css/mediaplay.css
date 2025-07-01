@@ -1,0 +1,49 @@
+.mediaplay {width: 100%;position: relative;margin-top: -15px;overflow: hidden;}
+.mediaplay .navigation{position:absolute;width:95%;left:14%;margin:0;max-width:1200px;line-height:25px;}
+.playmain {background: #000000;width: 100%;min-height: 280px;}
+.playbox {text-align: center;width: 1200px;height:560px;margin: 0 auto;padding:10px 0 10px 0;}
+.playlist {width: 95%;max-width: 1200px;margin: 20px auto;background: #fff;}
+.playlist ul {padding: 20px 1.6%;}
+.playlist strong{float: left;padding: 8px 14px;border: 1px solid #61B3E6;margin-right: 8px;font-size: 16px;background: #61B3E6;color: #fff;font-weight: 100;border-radius: 3px;}
+.playlist li{float: left;margin-bottom: 10px;}
+.playlist li a{padding: 8px 14px;border: 1px solid #dadada;margin-right: 8px;float: left;font-size: 16px;border-radius: 3px;}
+.playlist li a.crt,.playlist li a:hover {background: #ff4939;border: 1px solid #ff4939;color: #fff;}
+.videosay{padding:20px;}
+.videosay .time{padding-top:10px;padding-bottom:10px;line-height:30px;clear:both;overflow:hidden;}
+.videosay .time span{padding-left:10px;}
+.playlist .tit{padding: 10px 20px 0px 20px;}
+.tit h1 {float: left;height: 38px;border-bottom: 4px solid #ff4939;color: #010101;font-size: 18px;line-height: 38px;}
+.relates {overflow: hidden;}
+.relates ul {padding: 15px 0 0;overflow: hidden;margin: 0 -20px 0 0;}
+.relates li {width: 25%;margin-bottom: 30px;overflow: hidden;display: inline-block;vertical-align: top;}
+.relates a {margin-right: 20px;display: block;font-weight: bold;font-size: 14px;line-height: 22px;}
+.relates a img {width: 100%;margin-bottom: 5px;max-width: 100%;height:120px;}
+.hide{display:none;}
+
+.videobg{background:url(../images/video_bg.jpg) no-repeat scroll center top #303030!important}
+.playvideo{width:100%;height:640px;background:#303030;margin-top:-15px;}
+.play-title{height:22px;padding:10px 0;}
+.time-click{float:left;color:#696969}
+.time-click a{color:#696969}
+.playvideo-box{position:relative;width:970px;height:562px;margin:0 auto}
+.beiyong{position:absolute;top:534px;right:-21px}
+.video-last{border-radius:5px 0 0 5px}
+.video-last,.video-next{z-index:1;position:absolute;top:45%;left:-40px;margin-top:-30px;width:40px;height:100px;background:url(../images/slider-arrow.png) -126px -120px #000 no-repeat;filter:alpha(opacity=50);opacity:.5}
+.video-next{left:auto;right:-40px;background-position:-8px -120px}
+.video-last:hover{background:url(../images/slider-arrow.png) -192px -120px #000 no-repeat}
+.video-next:hover{background:url(../images/slider-arrow.png) -74px -120px #000 no-repeat}
+
+.news_top{position:relative;margin:0 auto;padding-bottom:20px;border-bottom:1px solid #f0f0f0;}
+.news_top h1{color:#2b2b2b;text-align:center;font-weight:bold;font-size:24px;line-height:54px;}
+.news_top p{height:24px;color:#8c8c8c;text-align:center;line-height:24px;}
+.news_top span{padding:0 0 0 20px;}
+.news_top span i{display:inline-block;margin:0 6px 0 0;color:#BEBEBE;}
+.art_info{padding:20px 2% 0;color:#4c4c4c;font-size:16px;line-height:30px;}
+.art_info p{margin-bottom:15px;text-indent:2em;word-break:break-all;}
+.art_info a{color:#72ace3;text-decoration:underline;}
+.art_info h3{color:#FF5E52;padding-bottom:10px;border-bottom:1px dashed #dadada;margin-bottom:20px;font-weight:700;margin-top:22px;}
+
+@media (max-width: 1024px) {.relates a img {width: 100%;margin-bottom: 5px;max-width: 100%;height: 100px;}.playbox{padding: 10px 0 10px 0;width: 100%;height:500px;margin: 0 auto;}.navigation {width: 100%;margin: 0 auto;line-height:30px;}}
+@media (max-width: 960px) {.fh_right{display:none;}.fh_left{margin-right:0;}.playbox{padding: 10px 0 10px 0;width: 100%;height:300px;margin: 0 auto;}.navigation {width: 100%;margin: 0 auto;line-height:30px;}}
+@media (max-width: 768px) {.fh_right{display:none;}.fh_left{margin-right:0;}.relates li {width: 33%;}.relates a img {width: 80%;margin-bottom: 5px;height: 100px;}.playbox{padding: 10px 0 10px 0;width: 100%;height:280px;margin: 0 auto;}.navigation {width: 100%;margin: 0 auto;line-height:30px;}}
+@media (max-width: 480px) {.pagemst{display:none;}.playbox{padding: 10px 0 10px 0;width:100%;height:200px;margin: 0 auto;}.navigation {width: 100%;margin: 0 auto;line-height:30px;}}

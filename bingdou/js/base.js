@@ -1,0 +1,3 @@
+﻿function tab1(o1,o2,c,e){o1.each(function(i){$(this).bind(e,function(){o2.hide().eq(i).show();o1.removeClass(c);$(this).addClass(c);})
+if($(this).hasClass(c)){$(this).addClass(c);o2.hide().eq(i).show();}})}
+$(function(){$(".eq_img").each(function(){$(this).hover(function(){$(this).find(".eq").show();},function(){$(this).find(".eq").hide();})});});function bline(obj){obj.each(function(){$(this).append("<div class='b_line'></div>");var b_line=$(this).find(".b_line");b_line.css({"position":"absolute","width":"100%","left":"-100%","bottom":0});$(this).hover(function(){b_line.stop(true,false).animate({left:0},300)},function(){b_line.stop(true,false).animate({left:"-100%"},300)});});}

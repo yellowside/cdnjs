@@ -1,0 +1,10 @@
+.module-boxA{margin-bottom:0.66667rem;background-color:#ffffff;}
+.module-boxA-hd{height:2.16667rem;line-height:2.29167rem;border-bottom:1px solid #e3e3e6;overflow:hidden}
+.module-boxA-tit{position:relative;margin-left:0.53333rem;font-size:0.95rem;color:#666666;padding-left:0.58333rem;font-weight:normal;}
+.module-boxA-tit:before{content:"";position:absolute;left:0;top:50%;margin-top:-0.625rem;width:0.15rem;height:1.20rem;overflow:hidden;background-color:#00a3e7}
+.module-boxA-hd h3 .amore{position:absolute;right:0.53333rem;font-size:0.65rem;}
+.module-listA{overflow:hidden}
+.module-listA li{position:relative;float:left;width:33.3333333333%;height:1.90833rem;line-height:1.90833rem;overflow:hidden;border-bottom:1px solid #eee;text-align:center}
+.module-listA li:after{content:"";position:absolute;top:50%;right:0;margin-top:-0.79167rem;background-color:#eee;width:1px;height:1.58333rem;overflow:hidden}
+.module-listA li a{display:block;height:100%;font-size:0.75rem;text-align:center;overflow:hidden;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.module-listA li a:active{background-color:#f7f7f7}
