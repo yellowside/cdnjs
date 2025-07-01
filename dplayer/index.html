@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="referrer" content="never">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover">
+<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+<title>bingdou jiexi</title>
+<style type="text/css">body, html, .dplayer{padding: 0;margin: 0;width: 100%;height: 100%;text-align:center;background-color:#000;}</style>
+<link rel="stylesheet" href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/dplayer/1.25.0/DPlayer.min.css">
+<script type="text/javascript" src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/flv.js/1.6.2/flv.min.js"></script>
+<script type="text/javascript" src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/hls.js/1.1.5/hls.min.js"></script>
+<script type="text/javascript" src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/dplayer/1.26.0/DPlayer.min.js"></script>
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/1.8.2/jquery.min.js"></script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" style="overflow-y:hidden;">
+<div id="video" class="dplayer"></div>
+<script type="text/javascript">
+function _get(name){
+     var result = location.search.match(new RegExp("[\?\&]" + name+ "=([^\&]+)","i"));
+     if(result == null || result.length < 1){
+         return "";
+     }
+     return decodeURIComponent(result[1])
+}
+var webdata = {
+        set:function(key,val){
+            window.sessionStorage.setItem(key,val);
+        },
+        get:function(key){
+            return window.sessionStorage.getItem(key);
+        },
+        del:function(key){
+            window.sessionStorage.removeItem(key);
+        },
+        clear:function(key){
+            window.sessionStorage.clear();
+        }
+    };
+		
+function h2_remove(){
+         $('#h2_player_pause').remove();
+}
+function h2_pause(){
+                $width = $('#video').width()/2;
+                $height = $('#video').height()/2;
+                $top = $('#video').height()/4;
+                $left = $('#video').width()/4;
+                $('#video').before('<iframe id="h2_player_pause" class="embed-responsive-item" src="https://cdn.bingdou.com.cn/dplayer/playerad.html" frameborder="0" scrolling="no" allowtransparency="true" style="position:absolute;z-index:2;top:'+$top+'px;left:'+$left+'px;width:'+$width+'px;height:'+$height+'px"></iframe>');
+}
+var purl = _get('url');
+var pic = "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-01451749-3f0f-4dba-b3d8-a8b2aa171e77/1e9b7edd-02f8-4fb0-95a3-3b7b4668ec5a.gif";
+var dp = new DPlayer({
+    container: document.getElementById('video'),
+			autoplay: true,
+			live: false,
+			mutex: true,
+			video: {
+				url: purl,
+                pic: pic
+			       },
+			contextmenu:[{text:"冰豆云播",link:"https://bingdou.vip/"}]
+		});
+dp.on('pause', function () {
+       h2_pause();
+})
+  dp.on('play', function () {
+        h2_remove();
+});
+
+dp.seek(webdata.get('pay'+purl));
+    setInterval(function(){
+        webdata.set('pay'+purl,dp.video.currentTime);
+    },1000);
+</script>
+<script>
+		if($('.dplayer-setting').length > 0){
+			$('.dplayer-setting').after("<div class='prism-time-display' style='float: left;'><a href='https://fuli.qianqi.net' target='blank' style='color:pink;font-weight:bold;'><img src='https://vkceyugu.cdn.bspapp.com/VKCEYUGU-01451749-3f0f-4dba-b3d8-a8b2aa171e77/546819a3-9c1c-4f67-bb7a-7881f2ab3c32.gif' style='margin-top: 3px;height:35px;'></a></div>");
+		}
+</script>
+<script>
+        window.onload = function(){
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                //F12
+                if(e.keyCode == 123){
+                    return false;
+                //Ctrl+Shift+I
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                //Shift+F10
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                //Ctrl+U
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+</script>
+<script type="text/javascript" src="https://js.users.51.la/21375003.js"></script>
+</body>
+</html>
