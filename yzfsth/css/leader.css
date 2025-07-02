@@ -1,0 +1,20 @@
+﻿/*-----------------领导信息-------------------*/
+.Min_Box ul li {float:left;padding:15px;box-sizing:border-box;position:relative;border:1px solid #eaeaea;margin:0 15px 15px 0;}
+.Min_Box ul li.Li_Even {margin-right:0;}
+.Min_Box ul li img {float:left;margin-right:10px;border:1px solid #ccc;padding:3px;box-shadow:2px 2px 2px lightgray;}
+.Min_Box ul li a.title_type {font-size:18px;line-height:2em;color:#007338;}
+.Min_Box ul li a.title_type:hover {font-weight:bold;}
+.Min_Box ul li p {font-size:16px;line-height:2em;}
+ul.Leader_One li {width:48%;float:left;}
+ul.Leader_One li.column_1,ul.Leader_One li.column_2 {background:#f7f7f7;}
+ul.Leader_One li img {width:160px;height:210px;}
+.Min_Box ul li a.detail {position:absolute;bottom:10px;right:15px;padding:5px 10px;color:#007338;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+a.details {color:#2076bd;}
+a.details:hover {font-weight:bold;}
+@media only screen and (max-width:768px) {ul.Leader_One li {width:50%;overflow:hidden;height:auto;margin:0 0 15px 0;}}
+@media only screen and (max-width:680px) {ul.Leader_One li {width:100%;float:none!important;}}
+@media only screen and (max-width:410px) {ul.Leader_One li p {overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;}}
+@media only screen and (max-width:375px) {.Min_Box ul li img {float:none;display:block;margin:0 auto;}
+.Min_Box ul li a.title_type {display:block;text-align:center;}
+ul.Leader_One li {height:auto;}
+.Min_Box ul li a.detail {right:0;}}
