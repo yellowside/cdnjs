@@ -1,0 +1,54 @@
+﻿/*冰豆网 - www.bingdou.net*/
+*{padding:0;margin:0;outline:none;}
+html{background:#f3f3f3;min-height:101%;}
+*html{background-image:url(about:blank);background-attachment:fixed;}
+body{font-family:'MicroSoft Yahei',verdana,arial,tahoma;font-size:12px;color:#666666;-webkit-text-size-adjust: none;}
+a{text-decoration:none;word-wrap:break-word;outline:none;hide-focus:expression(this.hideFocus=true);transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;}
+a:hover{color:#FF7402;text-decoration:none;}
+img{border:0;}
+/*搜索*/
+#all_search {width:978px;background:#fff; border:1px solid #9ACCFB;height:73px; line-height:25px; padding:0px 10px; position:relative; margin-top:32px;}
+.searchMain { position: relative; _width:610px; top:2px;}
+.shtext { float:left;height:25px; line-height:25px; padding:2px; font-size:16px;zoom:1; }
+#searchBtn { background:#1161ba;float:left; width:89px; height:31px; padding:0 6px; font-size:14px;border:0; color:#fff; font-weight:bold; cursor:pointer;transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;}
+#searchBtn:hover { background:#FF7402;}
+#seBox {float:left; height:30px; }
+.shtab { left:0; padding-left:123px; clear:both; color:#000; overflow:hidden; position:absolute; top:-27px; }
+.shtab li {width:55px;_width:50px;text-align:center; font-size:14px; font-weight:normal; cursor:pointer; display:block; float:left; margin:0 3px; background:#fff;color:#000; border:1px solid #D3E9FD; border-bottom:none;}
+.shtab li.current { font-weight: bold;background:#fff; font-weight:bold; border:1px solid #9ACCFB;border-bottom:1px solid #fff;;}
+.searchBox {float:left; margin:12px 0 0 10px; width:613px;}
+#kw_1 { width:410px; _width:400px;border:1px solid #8ABBFB;z-index:999;}
+#suggests_1 { width:414px; position:absolute; top:30px; left:107px; display:none;border:1px solid #BDD0E7;background:#fff; }
+.s360 a #city1 { color:#008000 }
+/*搜索引擎切换*/
+.se_choose{ float:left;height:35px;margin-right:9px; position:relative; top:3px; left:11px;}
+.se_choose .baidu,.se_choose .sougou,.se_choose .google,.se_choose .360,.se_choose .shopping,.se_choose .dangdang,.se_choose .amazon,.se_choose .buy360,.taobaosh .taobao{ width:98px; height:30px; background-image:url(http://imgcdn.bingdou.net/yongzhoudao/images/so/s_logo.png); background-repeat:no-repeat;}
+.se_choose .baidu{ background-position:4px 1px;}
+#more_se{background:#F5F9FF;border:1px solid #9ACCFB; }
+#more_se .baidu:hover{ background-position:-116px 1px;}
+.se_choose .sougou{ background-position:4px -206px;}
+#more_se .sougou:hover{ background-position:-114px -206px;}
+.se_choose .google{ background-position:0 -28px;}
+#more_se .google:hover{ background-position:-119px -28px;}
+.se_choose .360{ background-position:0 -64px;}
+#more_se .360:hover{ background-position:-120px -64px;}
+.se_choose .shopping{ background-position:0 -90px;}
+.taobaosh .taobao{ background-position:-118px -120px;}
+#more_se .shopping:hover{ background-position:-120px -90px;}
+.se_choose .dangdang{ background-position:0 -118px;}
+.se_choose .dangdang:hover{ background-position:-98px -118px;}
+.se_choose .amazon{ background-position:0 -151px;}
+.se_choose .amazon:hover{ background-position:-98px -151px;}
+.se_choose .buy360{ background-position:0 -178px;}
+.se_choose .buy360:hover{ background-position:-98px -178px;}
+#se_current{ position:relative;}
+#all_search .selectId {line-height:22px; position:relative;top:-3px; clear:both; margin-left:115px;}
+#all_search .selectId label{ margin-right:10px;}
+#all_search .selectId input{ position:relative;top:-2px;}
+/*热点*/
+.newlist { width:325px; font-size:12px; margin:10px 10px 0 5px; height:55px; overflow:hidden; float:right; line-height:24px; }
+.newlist a{margin-right:15px;white-space:nowrap; display:inline; float:left;color:#666;}
+.newlist a:hover{text-decoration:underline;color:#FF7402;}
+.newlist .keyword01,.newlist .keyword02{ width:325px; display:block;overflow:hidden;height:27px; line-height:27px; }
+a.jr_tuangou{ position:absolute;top:-28px;right:18px;}
+/*搜索*/
