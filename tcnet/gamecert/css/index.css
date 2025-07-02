@@ -1,0 +1,36 @@
+@charset "utf-8";body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,button{font-family:"微软雅黑","宋体",Arial,Helvetica,sans-serif;font-size:14px;color:#333;margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,textarea{outline:none}
+a:link,a:visited,a:active{text-decoration:none}
+a{cursor:pointer}
+a{color:#575757;text-decoration:none;cursor:pointer}
+a:hover{text-decoration:none}
+.clear{clear:both;overflow:hidden;font-size:1px}
+.left,.fl{float:left;display:inline}
+.right,.fr{float:right;display:inline}
+strong,b{font-weight:bold}
+.cl{clear:both}
+.logo{position:absolute;top:10px;left:10px}
+.logo img{width:70px}
+.boxer{background:#fff url(../images/bg.png) no-repeat center;height:100%;position:relative;overflow:hidden;background-size:cover}
+.box1{width:60.25%;margin:2% auto 0;overflow:hidden;box-shadow:0px 0px 13px 5px rgba(14,25,80,.2);border-radius:10px}
+.middle1{overflow:hidden}
+.middle_left{float:left;width:516px}
+.middle_left img{width:100%;height:100%}
+.middle_right{width:640px;height:600px;float:right;background:#fff}
+.mr_box{width:100%;margin:0 auto;margin-top:100px;text-align:center}
+.mr_box form{text-align:center}
+.mr_box h2{letter-spacing:2px;margin-bottom:50px;display:block;text-align:center;color:#0092e7;font-size:28px}
+input::-webkit-input-placeholder{color:#c1c1c1}
+.form-group{margin-bottom:44px;position:relative}
+.mar_b{margin-bottom:20px}
+.form-control{height:48px;width:278px;border:none;border:1px solid #e6e6e6;padding-left:20px}
+.login{height:56px;line-height:56px;width:82%;border:none;border-radius:60px;background:#14a7ff;color:#fff;font-size:18px;letter-spacing:2px;cursor:pointer;transition:.3s all linear;margin-top:40px}
+.login:hover{background:#0a98eb;transition:.3s all linear}
+input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}
+.left1{width:450px;margin:0 auto;margin:20% auto 0}
+h3{font-size:26px;text-align:center;padding:0 0 1em;color:#2c2a2e;border-bottom:2px solid #fefefe}
+p{padding:0.8vw 2vw;color:#333;font-size:1.25em;line-height:40px}
+.det{font-size:20px;text-align:center}
+.middle_right a:hover{color:#0092e7}
+.det::after{#content:"➔"}
