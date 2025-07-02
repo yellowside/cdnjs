@@ -1,0 +1,35 @@
+.pro-intro{height:500px;background-size:100% 500px}
+.pro-title{width:45%;}
+.pro-intro h3{color:#fff;font-size:34px;font-weight:bold;margin-bottom:1.5%;padding-top: 50px;letter-spacing:2px}
+.pro-intro p{color:#fff;font-size:16px;}
+.pro-intro .t-eng{font-size:18px;color:#fff;margin-bottom:3%}
+.pro-intro .t-des{font-size:14px;color:#fff;line-height:30px;letter-spacing:1px}
+.eproduct-one .ser-con{height:960px}
+.eproduct-two .ser-con{height:auto}
+.eproduct-one .ser-con .sc-main,.eproduct-two .ser-con .sc-main{width:100%}
+.eproduct-one .sc-main p,.eproduct-two .sc-main p{margin:0 3%}
+.eproduct-one .ser-con .eprocon-img,.eproduct-two .ser-con .eprocon-img{background:#FAFAFA;width:80%;margin:0 auto;display:block;text-align:center;overflow-x:auto;padding:50px 0 10px 0}
+.eproduct-two .ser-con .eproconthree-img{width:80%}
+.eproduct-two .ser-con .eproconfour-img{width:80%}
+.p-maintop{margin-top:-200px;}
+.ser-val{padding-top:40px}
+.ser-val .m-title h4{color:#333}
+.sc-main{width:98%;margin:1% auto}
+.sc-main p{color:#666;font-size:16px;margin:2%;line-height:36px;letter-spacing:2px}
+.sv-main{width:90%;padding-bottom:250px;margin:20px auto}
+.sv-main span{float:left;width:10%;height:100%;margin-left:1%}
+.sv-main p{float:left;width:75%;color:#333;font-size:16px;margin:6% 3% 3% 0;line-height:34px;letter-spacing:2px;text-indent:2.3em}
+
+.ser-con{width:100%;height:530px;background-image:url(../images/banner@sercon.png);background-size:cover;background-position:50%;display:flex;flex-direction:column;align-items:center;padding-top:50px;background-color:#FAFAFA}
+.ser-val{position: relative;padding: 25px;background-color: #0d5391;border-radius: 20px;box-shadow: 0px 10px 20px #9BCCFF;}
+.fun-main{width:100%;margin:0 auto;margin-top:3%}
+.pro-title{width:45%;padding:10% 0 0 5%}
+.fun-main li{float:left;width:33%;height:260px;padding:3%;text-align:center;border:2px solid #f5f5f5;cursor:pointer}
+.fun-main li:hover{border:2px solid #0b385f;}
+.fun-main li a{text-decoration:none}
+.fun-main li img{width:80px;height:80px;margin:0 auto;margin-bottom:6%}
+.fun-main li p{color:#666;font-size:14px;line-height:24px;text-align:left;text-indent: 2em}
+.ser-earn{padding-top:50px;padding-bottom:30px}
+.ser-val .m-title h4{color:#eee}
+.ser-val,.pro-title,.sc-main,.sv-main,.ser-earn,.fun-main ul{width:1400px;margin:0 auto;}
+.sv-main p{color:#fff}

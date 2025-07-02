@@ -1,0 +1,56 @@
+@media screen and (max-width:1200px){.p-banner .pro-intro{height:420px;background-size:100% 420px}
+.ser-val .sv-main{height:70%}
+.ser-val .sv-main p{margin:6% 5% 5% 6%}
+.p-main .m-title h4{font-size:26px}
+}@media screen and (max-width:960px){.p-banner .pro-intro{height:350px;background-size:100% 350px}
+.p-main .ser-con{height:330px;background-size:100% 370px;padding-top:20px}
+.ser-con .sc-main{width:98%;height:50%}
+.ser-con .sc-main p{margin:0 5%;letter-spacing:1px}
+.p-main .ser-val{height:340px;background-size:100% 390px}
+.ser-val .sv-main{width:80%;height:65%}
+.ser-val .sv-main span{width:10%;margin:1% 0 0 2%}
+.sv-main span img{width:65%}
+.ser-val .sv-main p{width:80%;line-height:30px;letter-spacing:1px;margin:5% 5% 5% 0}
+.p-main .m-title h4{font-size:26px}
+}@media screen and (max-width:768px){.p-banner .pro-intro{height:250px;background-size:100% 250px}
+.p-banner .pro-intro .t-des{line-height:26px}
+.p-main .ser-con{height:310px;background-size:100% 310px;padding-top:20px}
+.p-main .ser-val{height:360px;background-size:100% 360px;padding-top:20px}
+.ser-con .sc-main{width:98%;height:60%}
+.ser-con .sc-main p{margin:0;line-height:30px;letter-spacing:1px}
+.ser-val .sv-main{width:95%;height:68%}
+.ser-val .sv-main span{width:6%;margin:1% 0 0 2%}
+.sv-main span img{width:80%}
+.ser-val .sv-main p{width:86%;line-height:28px;letter-spacing:1px;margin:5% 5% 5% 0}
+.p-main .m-title h4{font-size:24px}
+.p-banner .pro-intro h3{font-size:28px;margin-bottom:2%}
+.p-banner .pro-intro .t-eng{font-size:16px}
+.eproduct-two .ser-con .eprocon-img .eproconthree-img,.eproduct-two .ser-con .eprocon-img .eproconfour-img{width:initial}
+}@media screen and (max-width:540px){.ser-val .sv-main{width:95%;height:75%}
+.ser-val .sv-main p{width:80%;margin:5% 0 0 0}
+.p-main .ser-con{height:330px;background-size:100% 350px}
+.p-main .ser-val{height:365px;background-size:100% 385px}
+.p-main .m-title h4{font-size:22px;margin:0 auto}
+}.p-banner{width:100%}
+.pro-intro{height:450px;background-size:100% 450px}
+.pro-intro h3{color:#fff;font-size:34px;font-weight:bold;margin-bottom:1.5%;padding-top: 50px;letter-spacing:2px}
+.pro-intro p{color:#fff;font-size:16px;}
+.pro-intro .t-eng{font-size:18px;color:#fff;margin-bottom:3%}
+.pro-intro .t-des{font-size:14px;color:#fff;line-height:30px;letter-spacing:1px}
+.pro-title{width:45%;padding:8% 0 0 5%}
+.pro-title{width:1400px;margin:0 auto;}
+.eproduct-one .ser-con{height:960px}
+.eproduct-two .ser-con{height:auto}
+.eproduct-one .ser-con .sc-main,.eproduct-two .ser-con .sc-main{width:100%}
+.eproduct-one .sc-main p,.eproduct-two .sc-main p{margin:0 3%}
+.eproduct-one .ser-con .eprocon-img,.eproduct-two .ser-con .eprocon-img{background:#FAFAFA;width:80%;margin:0 auto;display:block;text-align:center;overflow-x:auto;padding:50px 0 10px 0}
+.eproduct-two .ser-con .eproconthree-img{width:80%}
+.eproduct-two .ser-con .eproconfour-img{width:80%}
+.ser-con{height:320px;background-size:100% 360px;padding-top:30px;background-color:#FAFAFA}
+.ser-val{height:430px;background-size:100% 430px;padding-top:40px}
+.ser-val .m-title h4{color:#333}
+.sc-main{width:98%;margin:1% auto}
+.sc-main p{color:#666;font-size:16px;margin:0 8%;line-height:36px;letter-spacing:2px}
+.sv-main{width:98%;height:65%;border:1px solid #aaa;border-radius:10px;margin:20px auto}
+.sv-main span{float:left;width:10%;height:100%;margin-left:1%}
+.sv-main p{float:left;width:75%;color:#333;font-size:16px;margin:6% 5% 5% 0;line-height:34px;letter-spacing:2px;text-indent:2.3em}

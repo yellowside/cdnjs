@@ -1,0 +1,59 @@
+.pro-intro{height:500px;background-size:100% 500px}
+.pro-title{width:45%;}
+.pro-intro h3{color:#fff;font-size:34px;font-weight:bold;margin-bottom:1.5%;padding-top: 50px;letter-spacing:2px}
+.pro-intro p{color:#fff;font-size:16px;}
+.pro-intro .t-eng{font-size:18px;color:#fff;margin-bottom:3%}
+.pro-intro .t-des{font-size:14px;color:#fff;line-height:30px;letter-spacing:1px}
+.eproduct-one .ser-con{height:960px}
+.eproduct-two .ser-con{height:auto}
+.eproduct-one .ser-con .sc-main,.eproduct-two .ser-con .sc-main{width:100%}
+.eproduct-one .sc-main p,.eproduct-two .sc-main p{margin:0 3%}
+.eproduct-one .ser-con .eprocon-img,.eproduct-two .ser-con .eprocon-img{background:#FAFAFA;width:80%;margin:0 auto;display:block;text-align:center;overflow-x:auto;padding:50px 0 10px 0}
+.eproduct-two .ser-con .eproconthree-img{width:80%}
+.eproduct-two .ser-con .eproconfour-img{width:80%}
+.ser-val{padding: 25px;margin-top:40px;margin-bottom:40px;}
+.sc-main{width:98%;margin:1% auto}
+.sc-main .scp{color:#ffffff;font-size:18px;margin:2%;line-height:36px;letter-spacing:2px;text-indent: 2em}
+.sc-main p{color:#ffffff;font-size:18px;line-height:36px;}
+.sc-main img{width:90%;}
+.sv-main{width:90%;padding-bottom:250px;margin:20px auto}
+.sv-main .dian{float:left;width:10%;height:100%;margin-left:1%}
+.sv-main .svp{float:left;width:75%;color:#333;font-size:16px;margin:3% 3% 3% 0;line-height:36px;letter-spacing:2px;text-indent:2em}
+.sv-main p{line-height:36px;}
+
+.ser-con{width:100%;background: url(../images/20210518000139.jpeg) no-repeat;background-size: cover;opacity: 0.8;padding-top:50px;padding-bottom:50px;}
+.fun-main{width:100%;margin:0 auto;margin-top:3%}
+.pro-title{width:45%;padding:10% 0 0 5%}
+.fun-main li{float:left;width:25%;height:260px;padding:3%;text-align:center;border:2px solid #f5f5f5;background-color:#ffffff;cursor:pointer}
+.fun-main li:hover{border:2px solid #0b385f;}
+.fun-main li a{text-decoration:none}
+.fun-main li h1{font-size:18px; font-weight:bold;color:#666;}
+.fun-main li img{width:80px;height:80px;margin:0 auto;margin-bottom:6%}
+.fun-main li p{color:#666;font-size:14px;line-height:24px;text-align:left;text-indent: 2em}
+.ser-earn{padding-top:50px;padding-bottom:30px}
+.ser-val,.pro-title,.sc-main,.sv-main,.ser-earn,.fun-main ul{width:1400px;margin:0 auto;}
+
+.allsec-Pain-point .allsec-Pain-point-c{width:1200px;padding-bottom:60px;margin:0 auto}
+.allsec-Pain-point .allsec-Pain-point-c .allsec-Pain-point-title{font-size:28px;color:#2e415e;letter-spacing:.4px;text-align:center;line-height:28px;font-weight:500;margin-top:40px}
+.allsec-Pain-point .allsec-Pain-point-c .allsec-Pain-point-line{width:64px;height:4px;background:#2c7ef8;border-radius:2px;margin:16px auto 0}
+.allsec-Pain-point .allsec-Pain-point-c .allsec-Pain-point-item{width:100%;margin-top:32px;display:flex;justify-content:space-between}
+.allsec-Pain-point .allsec-Pain-point-c .allsec-Pain-point-item .allsec-Pain-point-items{width:282px;height:155px;display:flex;flex-direction:column;justify-content:space-between;align-items:center}
+.allsec-Pain-point .allsec-Pain-point-c .allsec-Pain-point-item .allsec-Pain-point-items .allsec-Pain-point-items-midm{font-size:20px;color:#2e415e;text-align:center;line-height:20px;font-weight:600}
+.allsec-Pain-point .allsec-Pain-point-c .allsec-Pain-point-item .allsec-Pain-point-items .allsec-Pain-point-items-btm{font-size:16px;color:#5f6e84;text-align:center;line-height:26px;font-weight:400}
+.allsec-programme{width:100%;padding-bottom:40px;overflow:hidden}
+.allsec-programme .allsec-programme-c{width:1200px;margin:0 auto}
+.allsec-programme .allsec-programme-c .allsec-programme-title{font-size:32px;color:#2e415e;letter-spacing:.4px;text-align:center;line-height:32px;font-weight:500;margin-top:40px}
+.allsec-Value{width:100%;height:220px;opacity:.9;background:#f8fbff;overflow:hidden;padding-bottom:40px}
+.allsec-Value .allsec-Value-c{width:1200px;margin:0 auto;padding-bottom:40px;box-sizing:border-box}
+.allsec-Value .allsec-Value-c .allsec-Value-title{font-size:32px;color:#2e415e;letter-spacing:.4px;text-align:center;line-height:32px;font-weight:500;margin-top:40px}
+.allsec-Value .allsec-Value-c .allsec-Value-item{width:90%;margin:40px auto 0;display:flex;justify-content:space-between;flex-wrap:wrap}
+.allsec-Value .allsec-Value-c .allsec-Value-items{width:48%}
+.allsec-Value .allsec-Value-c .allsec-Value-items .allsec-Value-item-info{display:flex;align-items:center;font-size:16px;color:#2e415e;line-height:25px;font-weight:600}
+.allsec-Customer{width:100%;height:205px;overflow:hidden}
+.allsec-Customer .allsec-Customer-c{width:1200px;height:100%;margin:0 auto}
+.allsec-Customer .allsec-Customer-c .allsec-Customer-title{font-size:32px;color:#2e415e;letter-spacing:.4px;text-align:center;line-height:32px;font-weight:500;margin-top:40px}
+.allsec-Customer .allsec-Customer-c .allsec-Customer-item{width:100%;display:flex;justify-content:space-between;margin-top:40px}
+.allsec-obtain{width:100%;height:112px;background-image:linear-gradient(128deg,#57b5fc 0%,#2c7ef8 100%);display:flex;justify-content:center;align-items:center}
+.allsec-obtain .allsec-obtain-btn{width:128px;height:32px;background:rgba(255,255,255,0);border:1px solid rgb(255,255,255);border-radius:2px;text-align:center;line-height:32px;margin:0 auto;cursor:pointer;color:#fff}
+@media (max-width:768px){.allsec-finance-banner,.allsec-Industry-background,.allsec-Pain-point,.allsec-programme,.allsec-Value,.allsec-Customer{width:1200px}
+}
