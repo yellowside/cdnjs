@@ -1,0 +1,27 @@
+.tit{height:42px;}
+.tit h1{float:left;height:38px;border-bottom:4px solid #ff4939;color:#010101;font-size:18px;line-height:38px;}
+.review dl{padding:20px 1% 20px 60px;overflow:hidden;background-color:#fff;border-bottom:1px solid #eee;}
+.review dt{float:left;margin-left:-60px;width:40px;}
+.review dt img{width:32px;height:32px;top:0;bottom:0;left:0;right:0;margin:auto;}
+.time em,.time i{font-size:36px;width:100%;display:block;margin:30px auto 0;line-height:36px;font-weight:700;color:#FFCEA1;text-align:center;font-family:Arial black;border-bottom:1px dashed #FFB673;padding-bottom:10px;}
+.time i{margin:5px auto 0;line-height:36px;color:#FFB571;text-align:center;border:none;font-size:30px;}
+.review dd div{height:32px;}
+.review dd div h3{display:inline;font-size:18px;line-height:24px;margin-top:0;font-weight:bold;}
+.review dd .meta{color:#999;font-size:12px;margin-bottom:10px;}
+.review time,.review .pv,.review .pc{margin-right:20px;}
+.review .meta .fa{margin-right:4px;}
+.review .meta a{color:#999;text-decoration:underline;}
+.review dd p.note{overflow:hidden;margin-top:4px;color:#888;font-size:13px;line-height:22px;word-wrap:break-word;}
+@media screen and (min-width:1200px){.review{width:890px}}
+@media (max-width:1199px){.review{width:660px}}
+@media (max-width: 1024px){.review dd div{height: 27px;overflow: hidden;}.review{width:580px}}
+@media (max-width: 920px){.fh_right{display: none}.fh_left{float: none;margin-right: 0;}}
+@media (max-width: 660px){.review dl{padding: 20px 0 20px 0;}.review dt{margin-left: 0;float: none;width: 100%;display: block;height: auto;}.time, .review dt img{width: 100%;margin: 0 auto 20px;display: block;min-height: 150px;height: auto;float: none;}}
+.listnopic dl {padding: 20px 1% 20px 1%;}
+/* ндвжап╠М */
+.list{padding:20px 20px 20px 0;}
+.list li{border-bottom:#CEDCF0 dashed 1px;margin-right:20px;}
+.list li a{height:50px;line-height:50px;font-size:16px;padding-left:10px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.list li a:hover,.list li a:active{background-color:#EEF3FA;text-decoration:none;}
+.list li a:visited{color:#999;}
+.list time{float:right;margin-right:29px;cursor:pointer;font-size:12px;color:#999;overflow:hidden;}
