@@ -1,0 +1,1 @@
+document.writeln("<div class=\"topbanner\"><img src=\"https://cdn.bingdou.com.cn/guolian/images/banner.png\" width=\"100%\"></div>");
