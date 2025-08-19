@@ -53,7 +53,7 @@ hr{display:block;padding:0;border:0;height:0;border-top:1px solid #ddd;}
 .notsupport h1{font-size:100px;margin-top:200px;margin-bottom:30px;}
 .notsupport h2{font-size:30px;margin-bottom:30px;}
 
-@font-face{font-family:"iconfont";src:url('https://cdnjs.bingdou.com.cn/hedunfonts/iconfont.eot?t=1552896629776');src:url('https://cdnjs.bingdou.com.cn/hedunfonts/iconfont.eot?t=1552896629776#iefix') format('embedded-opentype'),url('https://cdnjs.bingdou.com.cn/hedunfonts/iconfont.woff?t=1552896629776') format('woff'),url('https://cdnjs.bingdou.com.cn/hedunfonts/iconfont.ttf?t=1552896629776') format('truetype');}
+@font-face{font-family:"iconfont";src:url('../fonts/iconfont.eot');src:url('../fonts/iconfont.eot#iefix') format('embedded-opentype'),url('../fonts/iconfont.woff') format('woff'),url('../fonts/iconfont.ttf') format('truetype');}
 [class*=ui-icon-]{font-family:"iconfont";font-size:20px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;vertical-align:middle;}
 .ui-icon-cart:before{content:"\e6af";}
 .ui-icon-rmb:before{content:"\e836";}
