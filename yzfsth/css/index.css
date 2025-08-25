@@ -134,6 +134,7 @@ h2.title_min .more:hover {transition:all 0.2s;padding-left:120px;}
 #section0 {background-image:url('../images/banner.jpg');}
 #section1 {background-image:url('../images/banner2.jpg');}
 #section2 {background-image:url('../images/banner3-min.jpg');}
+#section3 {background-image:url('../images/banner4.jpg');}
 .pages li {list-style-type:none;width:10px;height:10px;border-radius:10px;background-color:white}
 .pages li:hover {box-shadow:0 0 5px 2px white}
 .pages li.active {background-color:orange;box-shadow:0 0 5px 2px orange}
