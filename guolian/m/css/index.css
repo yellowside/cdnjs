@@ -1,4 +1,5 @@
-﻿*{margin: 0;padding: 0;word-wrap:break-word;}
+﻿@import url('https://cdnjs.misidao.cn/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+*{margin: 0;padding: 0;word-wrap:break-word;}
 body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,form,blockquote{margin:0;padding:0}
 body{background-color:#f5f6fa;color: #4C4C4C;font-family:"PingFang SC","Lantinghei SC","Microsoft YaHei","HanHei SC","Helvetica Neue","Open Sans","Hiragino Sans GB",'微软雅黑',STHeiti,"WenQuanYi Micro Hei",Arial,SimSun,sans-serif;}
 ul,ol,li{list-style:none}
