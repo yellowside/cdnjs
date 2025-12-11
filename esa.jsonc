@@ -1,8 +1,8 @@
 {
   "name": "vite-react-template",
-  "entry": "./src/index.js",
+  "entry": "./index.html",
   "assets": {
-    "directory": "./dist",
+    "directory": "./",
     "notFoundStrategy": "404Page"
   }
 }
