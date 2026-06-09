@@ -150,7 +150,7 @@
 			var song = _this.song,
 				inline = $(_this.menu.list).empty();
 			for(var i in song){
-				inline.append("<li><a href='https://tao.bingdou.com.cn/' target='_blank'>购物优惠券</a></li><li><a href='http:/fuli.fanbing.cc/' target='_blank'>福利天天领</a></li><li><a href='https://www.bingdou.vip/' target='_blank'>视频云播</a></li><li><a href='https://www.3600.win/' target='_blank'>实用导航</a></li>");
+				inline.append("<li><a href='https://tao.bingdou.com.cn/' target='_blank'>品牌精选</a></li><li><a href='https://www.bingdou.vip/' target='_blank'>视频云播</a></li><li><a href='https://www.misidao.cn/' target='_blank'>实用导航</a></li>");
 			}
 			inline.find(">li").unbind('click').on('click',function(){
 				_this.selectMenu($(this).index(),true);
