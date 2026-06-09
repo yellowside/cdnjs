@@ -1,6 +1,6 @@
 @charset "utf-8";
 *{margin:0;padding:0}
-body{margin:0px;background: #464646 url(https://api.qianqi.net/pic/bing/)no-repeat;background-size:100% 100%;background-attachment:fixed;}
+body{margin:0px;background: #464646 url(https://api.bingdou.com.cn/pic/img/)no-repeat;background-size:100% 100%;background-attachment:fixed;}
 ul li{list-style-type:none}
 .audio-box{position:fixed;width:100%;min-width:338px;height:auto;bottom:0;left:0;background-color:rgba(0,0,0,0.6);color:#fff}
 .audio-container{width:100%;margin:auto}
