@@ -1,0 +1,3 @@
+<script src="https://cdnjs.misidao.cn/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="canvas.js"></script>
+<canvas class="home_header-con-canvas" data-canvas></canvas>
